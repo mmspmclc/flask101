@@ -2,13 +2,15 @@
 
 Workshop introducing how to use Flask for API development
 
+Note: This Flask workshop is created by Capital One's software engineering division.
+
 ## Installation
 
 ### 1. Workshop Repo
 (Assuming that you have git installed. If not, refer to the [official tutorial](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
 
 
-1. In your terminal/command prompt, navigate to the folder you would like to install the project files to. (ex.`cd path/to/folder/`) 
+1. In your terminal/command prompt, navigate to the folder you would like to install the project files to. (ex.`cd path/to/folder/`)
 2. Run the following: `git clone https://github.com/bbwong23/flask101.git`
 
 
@@ -28,7 +30,7 @@ Python 3.7.3
 (**NOTE:** if the command works with `python3` instead of `python`, use `python3` or `pip3` instead when instructed to run commands using `python` or `pip`)
 
 **Install the python libraries needed**
-1. In your terminal/command prompt, navigate inside the project directory downloaded in step 2 under **Workshop Repo** above. 
+1. In your terminal/command prompt, navigate inside the project directory downloaded in step 2 under **Workshop Repo** above.
 2. Run the following: `pip install -r requirements.txt`
 
 
@@ -41,11 +43,11 @@ Download the Postman application [here](https://www.postman.com/downloads/)
 
 - `sample/` This directory contains all the sample project files used in the workshop presentation for the live demos
 - `service/` This directory contains the source code for the service used in the lab. This includes the functions to a calculator that returns the raw results. **Nothing in this folder should be modified.**
-- `tests/` This directory contains the test collection that you will import to Postman to validate that you have set up your API correctly. Included in this collection are also the tests used in the live demo. 
+- `tests/` This directory contains the test collection that you will import to Postman to validate that you have set up your API correctly. Included in this collection are also the tests used in the live demo.
 
 
 ## Lab Instructions
-In this lab, you will be creating an API that exposes a calculator's functions to the consumer (can either be an individual, a script, or an application). Typically a controller is the file that handles all the routing and payload processing. So, the script that will be worked on for this lab is `calculator_controller.py`. A skeleton is provided with comments including step by step instructions on what to figure out. 
+In this lab, you will be creating an API that exposes a calculator's functions to the consumer (can either be an individual, a script, or an application). Typically a controller is the file that handles all the routing and payload processing. So, the script that will be worked on for this lab is `calculator_controller.py`. A skeleton is provided with comments including step by step instructions on what to figure out.
 
 There are 5 things that need to be completed in the controller file:
 1. Import the necessary libraries
@@ -74,7 +76,7 @@ user:~$ python3 flaskfile.py
  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
 
 ```
-With this, your API server is up and running! 
+With this, your API server is up and running!
 
 #### Import the test collection into Postman:
 
